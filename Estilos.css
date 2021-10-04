@@ -1,13 +1,44 @@
 
 body{
-    background-color: turquoise;
+
+    background-color: rgb(20, 20, 20);
 }
 
-h1{
+.content{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.title, .info{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card{
+    background-color: rgb(20, 20, 20);
+    box-shadow: 3px 3px 0px rgba(183, 58, 255, 0.8), 0px 0px 20px rgb(183, 58, 255, 0.8) ;
+    border-radius: 15px;
+}
+
+
+.barras{
+    width: 500px;
+    height: 3px;
+    padding: 15px;
+    background-color: #ccc;
+    margin: 10px;
+    border-radius: 30px;
+  }
+
+
+.titulos{
     
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    color:rgb(31, 31, 31);
-    background-color: turquoise;
+    color:rgb(255, 255, 255);
 
 }
 
