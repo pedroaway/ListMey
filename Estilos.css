@@ -1,44 +1,62 @@
 
 body{
-
-    background-color: rgb(20, 20, 20);
+    background-color: rgba(41,41,54,255)
+    ;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@700;900&display=swap');
+
+/* Inicio Estilos card de barras*/
 
 .content{
-    margin-top: 70px;
-    display: flex;
-    justify-content: center;
+    margin-top:80px;
+    margin-right: 200px;
+    display:flex;
+    justify-content: right;
     align-items: center;
     align-content: center;
+
 }
 
-.title, .info{
-    color: rgb(255, 255, 255);
-    font-family: Arial, Helvetica, sans-serif;
+.title{
+    color: rgba(253,121,198,255);
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+}
+
+.info{
+    font-family: 'Source Code Pro', monospace;
+    color: rgba(175,147,217,255);
+    text-align: left;
+    padding: 3px;
+    margin-left: 7px;
 }
 
 .card{
-    background-color: rgb(20, 20, 20);
-    box-shadow: 3px 3px 0px rgba(183, 58, 255, 0.8), 0px 0px 20px rgb(183, 58, 255, 0.8) ;
-    border-radius: 15px;
+    background-color: rgba(53,55,72,255);
+    box-shadow:0px 0px 15px rgba(53,55,72,255,0.9);
+    border-radius: 5px;
+    
 }
-
 
 .barras{
     width: 500px;
     height: 3px;
-    padding: 15px;
+    padding: 5px;
     background-color: #ccc;
     margin: 10px;
     border-radius: 30px;
-  }
 
+  }
 
 .titulos{
     
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     color:rgb(255, 255, 255);
+    
 
 }
+
+/* final Estilos card de barras*/
 
