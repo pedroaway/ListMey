@@ -1,16 +1,31 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
 body{
     background-color: rgba(41,41,54,255)
     ;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@700;900&display=swap');
+header{
+    background-color: rgba(175,147,217,255);
+    color: rgba(175,147,217,255);
+    padding: 15px;
+}
 
-/* Inicio Estilos card de barras*/
+.painel{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
 .content{
     margin-top:80px;
-    margin-right: 200px;
     display:flex;
     justify-content: right;
     align-items: center;
@@ -50,13 +65,17 @@ body{
   }
 
 .titulos{
-    
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     color:rgb(255, 255, 255);
     
-
 }
 
-/* final Estilos card de barras*/
+.painel ul{
+color:aliceblue;
+font-size: 30px;
+font-family: 'Source Code Pro', monospace;
+}
+
+
 
