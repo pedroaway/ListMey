@@ -7,8 +7,10 @@
   }
 
 body{
-    background-color: rgba(41,41,54,255)
-    ;
+    background: radial-gradient(circle at top right, #e66465, #9198e5);
+    background-repeat:no-repeat;
+    background-position:0ch;
+    background-attachment: fixed;
 }
 
 header{
@@ -22,10 +24,22 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-around;
+
+
 }
 
+.left-card{
+background: rgba(255, 255, 255, 0);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(15.6px);
+-webkit-backdrop-filter: blur(15.6px);
+border: 1px solid rgba(255, 255, 255, 0.48);
+    padding: 10px 40px 10px 40px;
+}
+
+
 .content{
-    margin-top:80px;
+    margin: 7px;
     display:flex;
     justify-content: right;
     align-items: center;
@@ -37,11 +51,13 @@ header{
     color: rgba(253,121,198,255);
     font-family: 'Source Code Pro', monospace;
     text-align: center;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .info{
     font-family: 'Source Code Pro', monospace;
-    color: rgba(175,147,217,255);
+    color: aliceblue;
     text-align: left;
     padding: 3px;
     margin-left: 7px;
@@ -51,6 +67,7 @@ header{
     background-color: rgba(53,55,72,255);
     box-shadow:0px 0px 15px rgba(53,55,72,255,0.9);
     border-radius: 5px;
+    
     
 }
 
@@ -66,16 +83,38 @@ header{
 
 .titulos{
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+    text-align: start;
     color:rgb(255, 255, 255);
     
 }
 
 .painel ul{
-color:aliceblue;
-font-size: 30px;
-font-family: 'Source Code Pro', monospace;
+    color:aliceblue;
+    font-size: 30px;
+    font-family: 'Source Code Pro', monospace;
+    list-style-type:none;
+}
+
+#adcionar_tarefa{
+    margin: 15px;
+    font-family: 'Source Code Pro', monospace;
+    background-color: blueviolet;
+    color: rgb(240, 240, 240);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    box-shadow: -3px 3px;
+}
+
+#adcionar_tarefa:hover{
+    background-color: rgb(84, 17, 148);
+    transition:0.3s;
+}
+
+dt checlist{
+    padding: 10px;
 }
 
 
+/*font-family:Space Grotesk*/
 

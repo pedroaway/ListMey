@@ -5,38 +5,28 @@
         <meta charset="UTF-8">
         <title> LISTMEY </title>
         <link rel="stylesheet" href="Estilos.css"> 
-        <link rel="script" href="index.js">
+        <script src="index.js"></script>
+
     </head>
 
 <body>
 
     <header>
-        <h1 class="titulos">ListMey</h1>
+        <a href="/LISTMEY.html"><h1 class="titulos">ListMey</h1></a>
 
     </header>
     <div class="painel">
-        <ul>
+        <ul class="left-card">
             <li>
                 <dl>
-                    <dt> <input type="checkbox"> Atividade 1 </dt>
+                    <dt> <input type="checkbox" class="checklist"> Atividade 1 </dt>
                 </dl>
             </li>
-            <li>
-                <dl>
-                    <dt> <input type="checkbox"> Atividade 2 </dt>
-                </dl>
-            </li>
-            <li>
-                <dl>
-                    <dt> <input type="checkbox"> Atividade 3 </dt>
-                </dl>
-            </li>
-            <li>
-                <dl>
-                    <dt> <input type="checkbox"> Atividade 4 </dt>
-                </dl>
-            </li>
-            <button>Adcionar Atividade</button>
+
+            <div class="tarefas">
+                <button id="adcionar_tarefa">Adcionar Atividade</button>
+            </div>
+            
         </ul>
 
         
@@ -45,7 +35,8 @@
             <div class="card">
                 <div class="titulo">
                     <h2 class="title"> SEU PROGRESSO</h2>
-                    <p class="info"> A porcentagem do seu desempenho será exibida logo <br> abaixo assim que terminar uma tarefa </p>
+                    <p class="info"> A porcentagem do seu desempenho será 
+                        exibida logo <br> abaixo assim que terminar uma tarefa </p>
                 </div>
 
                 <div class="barras"></div>
@@ -64,3 +55,12 @@
 
 
 </html>
+
+<!--
+                        ___________________________      
+                       /                           \     
+                      /_____________________________\    
+                     |  toyota                 supra |   
+                    | (@@@@)                  (@@@@)  |  
+                    |             3NTQ305              | 
+                    ---UUUUU-----------------UUUUUU-----
